@@ -30,7 +30,7 @@ void Arrival_Time_Sorting()
 
 int main()
 {
-	int i, time = 0, burst_time = 0, largest;
+	int i, time = 0, burst_time = 0, largest;//initializing time, burst_time variables to zeroM
 	char c;
         float wait_time = 0, turnaround_time = 0, average_waiting_time, average_turnaround_time;
 	printf("\nEnter Total Number of Processes:\t");
